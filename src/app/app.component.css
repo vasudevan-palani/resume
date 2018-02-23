@@ -1,7 +1,6 @@
 .profile-section {
   background-color: #2F353E;
   color : #FFFFFF;
-  height:900px;
 }
 
 .profile-section-header {
@@ -18,11 +17,11 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .body-section-header {
