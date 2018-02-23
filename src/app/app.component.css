@@ -17,6 +17,14 @@ h2 {
   font-size: 26px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
 .body-section-header {
   border: 1px solid #dddddd;
   border-left: 0px;
@@ -24,4 +32,12 @@ h2 {
 }
 .rating {
   color:gold;
+}
+
+ul.details {
+  font-size: 13px;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  text-align: left;
 }

@@ -1,87 +1,20 @@
 <div class="row">
-  <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
-    <section class="p-2 profile-section">
-      <section>
-        <div>
-          <h1>Vasudevan Palani</h1></div>
-        <div>
-          <p>Software Architect</p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2 class="pt-1 pb-1 profile-section-header">Personal Info</h2></div>
-        <div>
-          <p><span class="mr-2 fa fa-envelope"></span> vasudevan.palani@gmail.com</p>
-        </div>
-        <div>
-          <p><span class="mr-2 fa fa-phone"></span>(786)-527 1789</p>
-        </div>
-        <div>
-          <p><span class="mr-2 fa fa-linkedin"></span>linkedin.com/in/vasudevan-palani-b891a526</p>
-        </div>
-      </section>
-      <section>
-        <div>
-          <h2 class="pt-1 pb-1 profile-section-header">Skills</h2></div>
-        <div>
-          <p class="mb-1">Angular 5 <span *ngFor="let number of [0,1,2,3,4]" class="rating fa fa-star"></span></p>
-          <div class="mb-3 progress" style="height:5px;">
-            <div class="progress-bar" role="progressbar" style="width: 90%; height:5px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div>
-          <p class="mb-1">Angular 1</p>
-          <div class="mb-3 progress" style="height:5px;">
-            <div class="progress-bar" role="progressbar" style="width: 100%; height:5px" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div>
-          <p class="mb-1">Java</p>
-          <div class="mb-3 progress" style="height:5px;">
-            <div class="progress-bar" role="progressbar" style="width: 100%; height:5px" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div>
-          <p class="mb-1">J2EE</p>
-          <div class="mb-3 progress" style="height:5px;">
-            <div class="progress-bar" role="progressbar" style="width: 70%; height:5px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div>
-          <p class="mb-1">Spring</p>
-          <div class="mb-3 progress" style="height:5px;">
-            <div class="progress-bar" role="progressbar" style="width: 70%; height:5px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-        <div>
-          <p class="mb-1">AWS</p>
-          <div class="mb-3 progress" style="height:5px;">
-            <div class="progress-bar" role="progressbar" style="width: 70%; height:5px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-          </div>
-        </div>
-
-      </section>
-    </section>
-  </div>
-  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-    <section class="p-2">
-      <h2 class="body-section-header p-2"> Objective </h2>
-      <p>
-        Software professional with 12+ years of experience in IT industry. Excellent technical and communication skills. Wishing for an oppurtunity to leverage my skills and to take the technology to the next level.
-      </p>
-    </section>
-    <section class="p-2">
-      <h2 class="body-section-header p-2"> Experience </h2>
-      <p>
-        Software professional with 12+ years of experience in IT industry. Excellent technical and communication skills. Wishing for an oppurtunity to leverage my skills and to take the technology to the next level.
-      </p>
-    </section>
-    <section class="p-2">
-      <h2 class="body-section-header p-2"> Education </h2>
-      <p>
-        Software professional with 12+ years of experience in IT industry. Excellent technical and communication skills. Wishing for an oppurtunity to leverage my skills and to take the technology to the next level.
-      </p>
-    </section>
-  </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+        <section class="p-2 profile-section">
+            <section>
+                <div>
+                    <h1>Vasudevan Palani</h1></div>
+                <div>
+                    <p>Software Architect</p>
+                </div>
+            </section>
+            <app-personal-info></app-personal-info>
+            <app-skills></app-skills>
+        </section>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+        <app-objective></app-objective>
+        <app-experience></app-experience>
+        <app-education></app-education>
+    </div>
 </div>

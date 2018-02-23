@@ -1,0 +1,12 @@
+<div class="timeline-img" [style.background]="color">
+  <p *ngIf="!timeString || timeString === ''" [style.color]="textColor">{{dateValue | date: "HH:mm"}}</p>
+  <p *ngIf="timeString && timeString != ''" [style.color]="textColor">{{timeString}}</p>
+</div>
+
+<div class="timeline-content">
+  <div *ngIf="!timeString || timeString === ''" class="date" [style.background]="color">
+      <p [style.color]="textColor">{{dateValue | date:"dd MMMM yyyy"}}</p>
+  </div>
+
+  <div class="inner-content"><ng-content></ng-content></div>
+</div>
