@@ -1,0 +1,27 @@
+.profile-section {
+  background-color: #2F353E;
+  color : #FFFFFF;
+  height:900px;
+}
+
+.profile-section-header {
+  background-color: #262A32;
+  color : #FFFFFF;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.body-section-header {
+  border: 1px solid #dddddd;
+  border-left: 0px;
+  border-right: 0px;
+}
+.rating {
+  color:gold;
+}
