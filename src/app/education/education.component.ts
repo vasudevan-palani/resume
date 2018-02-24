@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare function require(url: string);
 
 @Component({
   selector: 'app-education',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
-  constructor() { }
+  data : any;
+
+  constructor() {
+    this.data = require('./data.json');
+  }
 
   ngOnInit() {
   }

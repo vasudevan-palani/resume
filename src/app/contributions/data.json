@@ -4,21 +4,24 @@
     "title" : "NPMJS - Packages",
     "descriptions" : [
       "Developed few packages for angularjs framework"
-    ]
+    ],
+    "ref":"https://www.npmjs.com/~devpal"
   },
   {
     "year" : "2016",
     "title" : "Bower - file resolver",
     "descriptions" : [
       "File resolver to back a file system as bower respository"
-    ]
+    ],
+    "ref":"https://www.npmjs.com/package/file-bower-resolver"
   },
   {
     "year" : "2015",
     "title" : "AngularJS - Flow router",
     "descriptions" : [
       "Wrapper for Angular Router to provide Page flow based design approach"
-    ]
+    ],
+    "ref":"https://github.com/vasudevan-palani/angular-flow-router"
   },
   {
     "year" : "2013",
