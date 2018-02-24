@@ -1,0 +1,60 @@
+[
+  {
+    "year" : "2017",
+    "title" : "NPMJS - Packages",
+    "descriptions" : [
+      "Developed few packages for angularjs framework"
+    ]
+  },
+  {
+    "year" : "2016",
+    "title" : "Bower - file resolver",
+    "descriptions" : [
+      "File resolver to back a file system as bower respository"
+    ]
+  },
+  {
+    "year" : "2015",
+    "title" : "AngularJS - Flow router",
+    "descriptions" : [
+      "Wrapper for Angular Router to provide Page flow based design approach"
+    ]
+  },
+  {
+    "year" : "2013",
+    "title" : "One touch Monitoring Tool – Ninja",
+    "descriptions" : [
+      "Developed this product to graphically visualize the health status of various IT applications cross platforms and tech stacks."
+    ]
+  },
+  {
+    "year" : "2012",
+    "title" : "Service Delivery Platform – Gatsby",
+    "descriptions" : [
+      "Web platform to manage for Effort/Task tracking, KEDB and pattern tracking."
+    ]
+  },
+  {
+    "year" : "2010",
+    "title" : "Kabira – KPSA test automation ",
+    "descriptions" : [
+      "Developed a testing framework which involved shell scripts and provtest of KPSA togather to test KPSA end to end provisioning flow at every stage and display the results as well to collect logs post the test."
+    ]
+  },
+  {
+    "year" : "2010",
+    "title" : "Kabira – Cartridge test automation",
+    "descriptions" : [
+      "Developed a custom cartridge testing framework which can inject and test workorders in parallel and complete the testing within minutes.",
+      "This framework enabled a complete testing of cartridges and short span of development still maintaining the quality well beyond the expectation."
+    ]
+  },
+  {
+    "year" : "2009",
+    "title" : "Kabira – Action language IDE",
+    "descriptions" : [
+      "Developed and used the vim plugin extensively to create a IDE for Kabira Action language.",
+      "It uses features like that of a rich editor like eclipse for syntax highlighting, autocomplete, auto format, auto template and building of components."
+    ]
+  }
+]

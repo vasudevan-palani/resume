@@ -1,0 +1,55 @@
+[
+  {
+    "year":"Mar 2018",
+    "title":"Cognizant - Comcast cable",
+    "role":"Sr.Software Architect",
+    "descriptions":[
+      "Microservices and AWS"
+    ]
+  },
+  {
+    "year":"Aug 2015",
+    "title":"Cognizant - TracFone Wireless",
+    "role":"Sr.Software Architect",
+    "descriptions":[
+      "Web Transformation to AngularJS(1.x)",
+      "Web Transformation to Angular(5.x)",
+      "Java/Spring/J2EE Middleware"
+    ]
+  },
+  {
+    "year":"Mar 2015",
+    "title":"Cognizant - Orange UK",
+    "role":"Software Architect",
+    "descriptions":[
+      "LogAnalysis - ELK"
+    ]
+  },
+  {
+    "year":"Mar 2012",
+    "title":"Cognizant - T Mobile UK",
+    "role":"Software Architect",
+    "descriptions":[
+      "Production Maintainance",
+      "ITIL certified"
+    ]
+  },
+  {
+    "year":"Mar 2007",
+    "title":"Cognizant - France Telecom",
+    "role":"Team Lead/Developer",
+    "descriptions":[
+      "Telecom - Provisioning",
+      "Tibco Kabira/KPSA, C++"
+    ]
+  },
+  {
+    "year":"June 2005",
+    "title":"Torry Harris - Orange UK",
+    "role":"Developer",
+    "descriptions":[
+      "Telecom - Provisioning",
+      "Tibco Kabira/KPSA, C++, PHP"
+    ]
+  }
+]

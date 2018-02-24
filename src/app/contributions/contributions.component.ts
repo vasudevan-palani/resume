@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+declare function require(url: string);
 @Component({
   selector: 'app-contributions',
   templateUrl: './contributions.component.html',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContributionsComponent implements OnInit {
 
-  constructor() { }
+  data : any;
+
+  constructor() {
+    this.data = require('./data.json');
+  }
 
   ngOnInit() {
   }
