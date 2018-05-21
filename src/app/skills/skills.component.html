@@ -31,11 +31,70 @@
         </div>
     </div>
     <div>
+        <p class="mb-1">Python</p>
+        <div class="mb-3 progress" style="height:2px;">
+            <div class="progress-bar" role="progressbar" style="width: 80%; height:2px" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+    <div>
         <p class="mb-1">C++</p>
         <div class="mb-3 progress" style="height:2px;">
             <div class="progress-bar" role="progressbar" style="width: 70%; height:2px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
     </div>
+    <div>
+        <h3 class="pt-1 pb-1 skill-group">Cloud</h3>
+    </div>
+    <div>
+        <p (click)="awsExpanded = !awsExpanded" class="mb-1"><i class="fa" [ngClass]="{'fa-chevron-right':!awsExpanded,'fa-chevron-down':awsExpanded}"></i>  AWS</p>
+        <div class="mb-3 progress" style="height:2px;">
+            <div class="progress-bar" role="progressbar" style="width: 70%; height:2px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+    <ng-container *ngIf="awsExpanded">
+      <div class="ml-4">
+          <p class="mb-1">AWS-EC2</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 95%; height:2px" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+      <div class="ml-4">
+          <p class="mb-1">AWS-Lambda</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 90%; height:2px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+      <div class="ml-4">
+          <p class="mb-1">AWS-API Gateway</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 90%; height:2px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+      <div class="ml-4">
+          <p class="mb-1">AWS-Dynamodb</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 70%; height:2px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+      <div class="ml-4">
+          <p class="mb-1">AWS-IAM</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 80%; height:2px" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+      <div class="ml-4">
+          <p class="mb-1">AWS-Cloudwatch</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 80%; height:2px" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+      <div class="ml-4">
+          <p class="mb-1">AWS-EMR</p>
+          <div class="mb-3 progress" style="height:2px;">
+              <div class="progress-bar" role="progressbar" style="width: 80%; height:2px" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+      </div>
+    </ng-container>
     <div>
         <h3 class="pt-1 pb-1 skill-group">Web</h3>
     </div>
@@ -61,12 +120,6 @@
         <p class="mb-1">Apache2</p>
         <div class="mb-3 progress" style="height:2px;">
             <div class="progress-bar" role="progressbar" style="width: 90%; height:2px" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-        </div>
-    </div>
-    <div>
-        <p class="mb-1">ExpressJS</p>
-        <div class="mb-3 progress" style="height:2px;">
-            <div class="progress-bar" role="progressbar" style="width: 60%; height:2px" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
     </div>
     <div>
@@ -116,13 +169,11 @@
         </div>
     </div>
     <div>
-        <h3 class="pt-1 pb-1 skill-group">Cloud</h3>
-    </div>
-    <div>
-        <p class="mb-1">AWS</p>
+        <p class="mb-1">ExpressJS</p>
         <div class="mb-3 progress" style="height:2px;">
-            <div class="progress-bar" role="progressbar" style="width: 70%; height:2px" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" style="width: 60%; height:2px" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
     </div>
+
 
 </section>

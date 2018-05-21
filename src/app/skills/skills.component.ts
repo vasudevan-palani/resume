@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
+  public awsExpanded: boolean;
+
   constructor() { }
 
   ngOnInit() {
+    this.awsExpanded = false;
   }
 
 }
